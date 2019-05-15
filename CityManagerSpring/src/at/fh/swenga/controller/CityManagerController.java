@@ -25,7 +25,7 @@ public class CityManagerController {
 	@RequestMapping(value = { "/", "listCities" })
 	public String showAllCities(Model model) {
 		model.addAttribute("cities", cityService.getAllCities());
-		return "listEmployees";
+		return "listCities";
 	}
 
 	@RequestMapping("/fillCityList")
