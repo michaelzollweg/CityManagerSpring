@@ -100,6 +100,6 @@ public class CityService {
 	 * @return
 	 */
 	public boolean remove(int id) {
-		return cities.remove(new CityModel(id, null, null, null, (Integer) null));
+		return cities.remove(new CityModel(id, null, null, null, 0));
 	}
 }
